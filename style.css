@@ -1,0 +1,151 @@
+
+body{
+    margin: 0;
+}
+
+.head{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+.title{
+    font-size: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bold;
+    position: relative;
+   left: 10%;
+   top: 10%;
+}
+.titlespan{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+}
+.slogan{
+    color: rgb(255, 217, 0);
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+   left: 10%;
+   top: 10%;
+}
+
+
+.container{
+    width: 300px;
+    height: 450px;
+    background-color: rgba(142, 141, 141, 0.479);
+    text-align: center;
+    border: transparent;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 10px;
+    margin-left:57px;
+}
+.container:hover{
+    outline: #ff0000 solid 4px;
+    outline-offset: 5px;
+}
+.img1{
+    padding-top: 15px;
+}
+.name{
+    font-style: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.discription{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.price  {
+    padding-top: 10px;
+    font-size:22px ;
+    font-weight: bold;
+}
+.span{
+    text-decoration: line-through;
+    font-size:18px ;
+    color: rgb(84, 84, 84);
+}
+.button1div{
+    padding-top: 10px;
+}
+.button1{
+    background-color: red;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color:white ;
+}
+.button1:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.mid{
+    width: 100%;
+    height: 1510px;
+}
+.marquee{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 255, 0);
+}
+.offer1{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 50px;
+    position: relative;
+    top: 20%;
+}
+.foot{
+    background-color: rgb(42, 42, 42);
+    width: 100%;
+    height: 400px;
+}
+.about{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+.aboutcontent{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 15%;
+    text-align: center;
+}
+.condition{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+.copyright{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
